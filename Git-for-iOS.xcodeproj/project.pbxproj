@@ -29,6 +29,7 @@
 		39D802FC183C01CE005C5573 /* libObjectiveGit-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D802F9183C01B6005C5573 /* libObjectiveGit-iOS.a */; };
 		39D802FE183C01D3005C5573 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D802FD183C01D3005C5573 /* libz.dylib */; };
 		39D80300183C01DA005C5573 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D802FF183C01DA005C5573 /* libiconv.dylib */; };
+		39D80303183C0A01005C5573 /* AddProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D80302183C0A01005C5573 /* AddProjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,8 @@
 		39D802E5183C01B5005C5573 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
 		39D802FD183C01D3005C5573 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		39D802FF183C01DA005C5573 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		39D80301183C0A01005C5573 /* AddProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectViewController.h; sourceTree = "<group>"; };
+		39D80302183C0A01005C5573 /* AddProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				39D802C7183C0026005C5573 /* Images.xcassets */,
 				39D802BE183C0025005C5573 /* Git_for_iOS.xcdatamodeld */,
 				39D802AD183C0025005C5573 /* Supporting Files */,
+				39D80301183C0A01005C5573 /* AddProjectViewController.h */,
+				39D80302183C0A01005C5573 /* AddProjectViewController.m */,
 			);
 			path = "Git-for-iOS";
 			sourceTree = "<group>";
@@ -367,6 +372,7 @@
 				39D802C3183C0026005C5573 /* MasterViewController.m in Sources */,
 				39D802C0183C0025005C5573 /* Git_for_iOS.xcdatamodeld in Sources */,
 				39D802B7183C0025005C5573 /* AppDelegate.m in Sources */,
+				39D80303183C0A01005C5573 /* AddProjectViewController.m in Sources */,
 				39D802B3183C0025005C5573 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
